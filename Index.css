@@ -1,0 +1,142 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+/* kbal */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #fff7ed;
+
+}
+
+/* Logo */
+.logo {
+  text-decoration: none;
+  color: #f26a1b;
+}
+
+.logo-name {
+  display: block;
+  font-size: 26px;
+}
+
+.logo-tag {
+  display: block;
+  font-size: 11px;
+}
+
+/* ah nis nav */
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  margin-right: 160px;
+  
+}
+
+.nav a {
+  text-decoration: none;
+  color: #EA580C;
+  font-size: 16px;
+}
+
+.nav a:hover,
+.nav a.active {
+  text-decoration: underline;
+}
+
+/* jol hero section */
+
+.hero {
+    width: 100%;
+    height: 529px;
+    background-color: #FF913E;
+
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 84%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7%;
+}
+
+.content {
+    width: 50%;
+}
+
+.small-text {
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    color: #282018;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #151515;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #89552F;
+    margin-bottom: 25px;
+}
+
+.button-group {
+    display: flex;
+    gap: 45px;
+}
+
+.button-group a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px 30px;
+    border-radius: 6px;
+}
+
+.orange-btn {
+    background-color: #E9500C;
+    color: white;
+}
+
+.white-btn {
+    background-color: white;
+    color: #333;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+}
+
